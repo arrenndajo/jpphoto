@@ -146,7 +146,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "nature-4",
-      url: "/photos/nature/kashigaon-2.jpg",
+      url: "/photos/nature/kashigaon-1.jpg",
       photographer: "Jay Parmar",
       title: "Forest Waterfall",
       size: "tall",
