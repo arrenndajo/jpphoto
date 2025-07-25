@@ -106,7 +106,7 @@ export default function App() {
                   <div className="flex justify-center mb-8">
                     <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg">
                       <img
-                        src="public/photos/profile/jay.jpg"
+                        src="/photos/profile/jay.jpg"
                         alt="Jay Parmar"
                         className="w-full h-full object-cover"
                       />
