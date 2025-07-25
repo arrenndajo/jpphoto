@@ -24,7 +24,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
   const [homePhotos] = useState<Photo[]>([
     {
       id: "home-1",
-      url: "public/photos/travel/dubai-flight-2.jpg",
+      url: "/photos/travel/dubai-flight-2.jpg",
       photographer: "Jay Parmar",
       title: "Birds eye view of Dubai",
       size: "tall",
@@ -33,7 +33,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "home-2",
-      url: "public/photos/travel/nyc-skyline-2.jpg",
+      url: "/photos/travel/nyc-skyline-2.jpg",
       photographer: "Jay Parmar",
       title: "NYC Skyline from Liberty State Park",
       size: "medium",
@@ -42,7 +42,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "home-3",
-      url: "public/photos/nature/pescadero-point-sf.jpg",
+      url: "/photos/nature/pescadero-point-sf.jpg",
       photographer: "Jay Parmar",
       title: "Pescadero Point",
       size: "medium",
@@ -51,7 +51,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "home-4",
-      url: "public/photos/nature/sf-sun-halo-effect.jpg",
+      url: "/photos/nature/sf-sun-halo-effect.jpg",
       photographer: "Jay Parmar",
       title: "Sun Halo Effect",
       size: "medium",
@@ -60,7 +60,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "home-5",
-      url: "public/photos/travel/statue-of-liberty.jpg",
+      url: "/photos/travel/statue-of-liberty.jpg",
       photographer: "Jay Parmar",
       title: "Statue of Liberty",
       size: "medium",
@@ -69,7 +69,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "home-6",
-      url: "public/photos/travel/goldengatebridge-1.JPG",
+      url: "/photos/travel/goldengatebridge-1.JPG",
       photographer: "Jay Parmar",
       title: "Golden Gate Bridge",
       size: "tall",
@@ -78,7 +78,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "home-7",
-      url: "public/photos/travel/oculus.jpg",
+      url: "/photos/travel/oculus.jpg",
       photographer: "Jay Parmar",
       title: "The Oculus",
       size: "medium",
@@ -87,7 +87,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "home-8",
-      url: "public/photos/travel/pier-sf-yatch.jpg",
+      url: "/photos/travel/pier-sf-yatch.jpg",
       photographer: "Jay Parmar",
       title: "Pier 39",
       size: "extra-tall",
@@ -105,7 +105,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "home-10",
-      url: "public/photos/travel/nj-transit.JPG",
+      url: "/photos/travel/nj-transit.JPG",
       photographer: "Jay Parmar",
       title: "NJ Transit train",
       size: "tall",
