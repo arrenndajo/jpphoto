@@ -119,7 +119,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     // Nature Photography
     {
       id: "nature-1",
-      url: "public/photos/nature/nj-1.JPG",
+      url: "/photos/nature/nj-1.JPG",
       photographer: "Jay Parmar",
       title: "Snowy Morning",
       size: "medium",
@@ -128,7 +128,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "nature-2",
-      url: "public/photos/nature/green-leaves.jpg",
+      url: "/photos/nature/green-leaves.jpg",
       photographer: "Jay Parmar",
       title: "Moody Green Leaves",
       size: "tall",
@@ -137,7 +137,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "nature-3",
-      url: "public/photos/nature/Kashigaon-2.jpg",
+      url: "/photos/nature/Kashigaon-2.jpg",
       photographer: "Jay Parmar",
       title: "Leaves in the forest",
       size: "medium",
@@ -146,7 +146,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "nature-4",
-      url: "public/photos/nature/Kashigaon-1.jpg",
+      url: "/photos/nature/Kashigaon-1.jpg",
       photographer: "Jay Parmar",
       title: "Forest Waterfall",
       size: "tall",
@@ -157,7 +157,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     // Travel Photography
     {
       id: "travel-1",
-      url: "public/photos/travel/nyc-skyline-3.jpg",
+      url: "/photos/travel/nyc-skyline-3.jpg",
       photographer: "Jay Parmar",
       title: "NYC Skyline from Liberty State Park",
       size: "medium",
@@ -166,7 +166,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "travel-2",
-      url: "public/photos/travel/nyc-subway.jpg",
+      url: "/photos/travel/nyc-subway.jpg",
       photographer: "Jay Parmar",
       title: "NYC Subway",
       size: "medium",
@@ -175,7 +175,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "travel-3",
-      url: "public/photos/travel/bandrafort.jpg",
+      url: "/photos/travel/bandrafort.jpg",
       photographer: "Jay Parmar",
       title: "Bandra Fort",
       size: "medium",
@@ -184,7 +184,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "travel-4",
-      url: "public/photos/travel/brooklynbridge.jpg",
+      url: "/photos/travel/brooklynbridge.jpg",
       photographer: "Jay Parmar",
       title: "Glimpse of Manhattan Bridge",
       size: "short",
@@ -193,7 +193,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "travel-5",
-      url: "public/photos/travel/dubai-flight-1.jpg",
+      url: "/photos/travel/dubai-flight-1.jpg",
       photographer: "Jay Parmar",
       title: "Dubai from birds-eye view",
       size: "medium",
@@ -202,7 +202,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "travel-6",
-      url: "public/photos/travel/Gateway-of-India-3.jpg",
+      url: "/photos/travel/Gateway-of-India-3.jpg",
       photographer: "Jay Parmar",
       title: "The Taj Mahal Palace Hotel",
       size: "medium",
@@ -211,7 +211,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "travel-7",
-      url: "public/photos/travel/rockefeller-center.jpg",
+      url: "/photos/travel/rockefeller-center.jpg",
       photographer: "Jay Parmar",
       title: "Rockefeller Center",
       size: "medium",
@@ -220,7 +220,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "travel-8",
-      url: "public/photos/travel/marine-drive-2.jpg",
+      url: "/photos/travel/marine-drive-2.jpg",
       photographer: "Jay Parmar",
       title: "Monsoon Splash",
       size: "tall",
@@ -229,7 +229,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "travel-9",
-      url: "public/photos/travel/the-vessel-2.jpg",
+      url: "/photos/travel/the-vessel-2.jpg",
       photographer: "Jay Parmar",
       title: "Looking above in The Vessel",
       size: "tall",
@@ -240,7 +240,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     // Architecture Photography
     {
       id: "arch-1",
-      url: "public/photos/architecture/baps-nj.jpg",
+      url: "/photos/architecture/baps-nj.jpg",
       photographer: "Jay Parmar",
       title: "BAPS Akshardham Temple",
       size: "medium",
@@ -249,7 +249,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "arch-2",
-      url: "public/photos/architecture/Bandstand-1.jpg",
+      url: "/photos/architecture/Bandstand-1.jpg",
       photographer: "Jay Parmar",
       title: "Bandstand",
       size: "medium",
@@ -258,7 +258,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "arch-3",
-      url: "public/photos/architecture/pagoda-2.jpg",
+      url: "/photos/architecture/pagoda-2.jpg",
       photographer: "Jay Parmar",
       title: "Pagoda",
       size: "medium",
@@ -267,7 +267,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "arch-4",
-      url: "public/photos/architecture/BMC-1.jpg",
+      url: "/photos/architecture/BMC-1.jpg",
       photographer: "Jay Parmar",
       title: "BMC Building Reflection",
       size: "tall",
@@ -276,7 +276,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "arch-5",
-      url: "public/photos/architecture/baps-nj-details.jpg",
+      url: "/photos/architecture/baps-nj-details.jpg",
       photographer: "Jay Parmar",
       title: "BAPS Akshardham Temple Details",
       size: "tall",
@@ -285,7 +285,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "arch-6",
-      url: "public/photos/architecture/Gateway-of-India-1.jpg",
+      url: "/photos/architecture/Gateway-of-India-1.jpg",
       photographer: "Jay Parmar",
       title: "Gateway of India",
       size: "medium",
@@ -294,7 +294,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "arch-7",
-      url: "public/photos/street/Fort-1.jpg",
+      url: "/photos/street/Fort-1.jpg",
       photographer: "Jay Parmar",
       title: "Asiatic Library",
       size: "medium",
@@ -303,7 +303,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "arch-8",
-      url: "public/photos/architecture/pagoda-1.jpg",
+      url: "/photos/architecture/pagoda-1.jpg",
       photographer: "Jay Parmar",
       title: "Global Vipassana Pagoda",
       size: "tall",
@@ -314,7 +314,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     // Street Photography
     {
       id: "street-1",
-      url: "public/photos/street/sion-2.jpg",
+      url: "/photos/street/sion-2.jpg",
       photographer: "Jay Parmar",
       title: "Mumbai Police is Yellow Power Rangers IRL",
       size: "medium",
@@ -323,7 +323,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "street-2",
-      url: "public/photos/street/jog 1.jpg",
+      url: "/photos/street/jog 1.jpg",
       photographer: "Jay Parmar",
       title: "Western Express Highway",
       size: "tall",
@@ -332,7 +332,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "street-3",
-      url: "public/photos/street/nyc-street-1.jpg",
+      url: "/photos/street/nyc-street-1.jpg",
       photographer: "Jay Parmar",
       title: "NYC",
       size: "medium",
@@ -341,7 +341,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "street-4",
-      url: "public/photos/street/nyc-street-2.jpg",
+      url: "/photos/street/nyc-street-2.jpg",
       photographer: "Jay Parmar",
       title: "Cycling with a view",
       size: "medium",
@@ -350,7 +350,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "street-5",
-      url: "public/photos/street/sion-1.jpg",
+      url: "/photos/street/sion-1.jpg",
       photographer: "Jay Parmar",
       title: "Walking in the rain",
       size: "medium",
@@ -359,7 +359,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "street-6",
-      url: "public/photos/street/shadow.jpg",
+      url: "/photos/street/shadow.jpg",
       photographer: "Jay Parmar",
       title: "Shadow Play",
       size: "medium",
@@ -368,7 +368,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "street-7",
-      url: "public/photos/street/BMC-2.jpg",
+      url: "/photos/street/BMC-2.jpg",
       photographer: "Jay Parmar",
       title: "Brihanmumbai Municipal Corporation",
       size: "medium",
@@ -379,7 +379,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     // Car Photography
     {
       id: "car-1",
-      url: "public/photos/cars/porsche-3.jpg",
+      url: "/photos/cars/porsche-3.jpg",
       photographer: "Jay Parmar",
       title: "White Porsche head light",
       size: "medium",
@@ -388,7 +388,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "car-2",
-      url: "public/photos/cars/marine-drive-3.jpg",
+      url: "/photos/cars/marine-drive-3.jpg",
       photographer: "Jay Parmar",
       title: "Yellow Porsche 911",
       size: "medium",
@@ -397,7 +397,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "car-3",
-      url: "public/photos/cars/dodge-2.jpg",
+      url: "/photos/cars/dodge-2.jpg",
       photographer: "Jay Parmar",
       title: "Red Dodge paired with Red Shirt",
       size: "medium",
@@ -406,7 +406,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "car-4",
-      url: "public/photos/cars/car-sf.jpg",
+      url: "/photos/cars/car-sf.jpg",
       photographer: "Jay Parmar",
       title: "Blue Beauty",
       size: "medium",
@@ -415,7 +415,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "car-5",
-      url: "public/photos/cars/porsche-2.jpg",
+      url: "/photos/cars/porsche-2.jpg",
       photographer: "Jay Parmar",
       title: "White Porsche Panamera S tail-light",
       size: "medium",
@@ -424,7 +424,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "car-6",
-      url: "public/photos/cars/dodge-3.jpg",
+      url: "/photos/cars/dodge-3.jpg",
       photographer: "Jay Parmar",
       title: "Red Dodge front-left profile",
       size: "medium",
@@ -433,7 +433,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "car-7",
-      url: "public/photos/cars/dodge-1.jpg",
+      url: "/photos/cars/dodge-1.jpg",
       photographer: "Jay Parmar",
       title: "Red Dodge",
       size: "medium",
@@ -442,7 +442,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({
     },
     {
       id: "car-8",
-      url: "public/photos/cars/porsche-1.jpg",
+      url: "/photos/cars/porsche-1.jpg",
       photographer: "Jay Parmar",
       title: "White Porsche Panamera S",
       size: "medium",
