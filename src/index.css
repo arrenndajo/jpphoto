@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Background texture */
+body {
+  background-image: url('/arches.png');
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  background-attachment: fixed;
+  background-color: orange; /* Orange background */
+}
+
 @keyframes shimmer {
   0% {
     transform: translateX(-100%);
